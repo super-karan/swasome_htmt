@@ -1,0 +1,211 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+#main{
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #dadada;
+}
+
+
+#left{
+
+    position: relative;
+    background: url(https://sportland.ee/magazine/wp-content/uploads/2019/05/DSC6405-1200x801.jpg);
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+
+
+
+
+
+}
+
+header{
+position: absolute;
+    height: 60px;
+
+ top: 10%;
+ z-index: 9999;
+ background-size: contain;
+
+    width: 100%;
+
+}
+
+#logo img{
+
+
+    margin: 20px;
+    width: 170px;
+    height: 60px;
+   
+}
+
+#menu i {
+
+position: absolute;
+top: 3%;
+right: 5%;
+color: #dadada;
+font-size: 50px;
+    width: 80px;
+    height: 80px;
+
+
+}
+
+
+#plus i{
+
+    position: absolute;
+    bottom: 5%;
+    color: #dadada;
+    left: 5%;
+    font-size: 70px;
+}
+
+#text{
+    text-align: right;
+    font-weight: 900;
+
+    position: absolute;
+    bottom: 5%;
+    color: #dadada;
+    right: 5%;
+    font-size: 100px;
+}
+#right1{
+    position: relative;
+    
+
+    background-color: #dadada;
+    width: 40%;
+    height: 100%;
+}
+#right2{
+    position: relative;
+
+    background-color: #dadada;
+    width: 10%;
+    height: 100%;
+}
+
+#img1{
+
+    position: absolute;
+    
+    left: 40%;
+    background: url(https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80);
+ 
+    background-size: cover;
+    width: 250px;
+    height: 270px;
+
+
+
+}
+
+
+#round{
+ 
+    position: absolute;
+    width: 150px;
+    height:150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    top: 35%;
+    left: 65%;
+
+
+
+}
+#text-round{
+
+    font-family: sans-serif;
+    font-weight: 500;
+    
+    font-size: 15px;
+
+    text-align: center;
+
+    width: 140px;
+    padding: 20px;
+    margin-top: 25%;
+
+}
+#img2{
+
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    background: url(https://images.unsplash.com/photo-1622560480654-d96214fdc887?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80);
+ 
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+
+
+
+}
+
+#img3{
+
+    position: absolute;
+    bottom: 0%;
+    left:63%;
+    background: url(https://images.unsplash.com/photo-1620799139834-6b8f844fbe61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1072&q=80);
+ 
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+
+
+
+}
+
+#text_side{
+    white-space: nowrap;
+
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    color: rgba(0, 0, 0, 0.895);
+    transform-origin: 10% 0;
+    transform: rotate(270deg);
+}
+
+#viewmore{
+    display: flex;
+
+    position: absolute;
+
+    font-weight: 200;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 85%;
+    left: 30%;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.836);
+
+
+
+}
+#viewmore i{
+
+    margin: 4px;
+}

@@ -1,0 +1,81 @@
+*{
+font-family: gilroy;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html,body{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+#box{
+
+    
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100px;
+    border: 2px solid black;
+    border-right: 0px;
+    white-space: nowrap;
+
+  
+    overflow: auto;
+
+
+}
+
+
+#box h1{
+
+    text-align: center;
+
+    color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+    margin-right: 20px;
+    animation-iteration-count: infinite;
+   
+
+    animation-name: auto;
+    animation-duration: .5s;
+    animation-timing-function: linear;
+
+    font-size: 60px;
+
+    display: inline-block;
+    
+
+
+}
+
+#box::-webkit-scrollbar{
+
+    display: none;
+}
+
+@keyframes auto {
+
+    0%{
+
+        transform: translateX(0%);
+
+
+
+    }
+
+    100%{
+
+        transform: translateX(calc(-100% - 22px));
+
+
+    }
+    
+}

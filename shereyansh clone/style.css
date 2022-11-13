@@ -1,0 +1,156 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html,body{
+width: 100%;
+height: 100%;
+}
+
+#main{
+width: 100vw;
+background-color: #fff;
+display: flex;
+}
+
+
+
+#web_logo{
+position: absolute;
+top: 5%;
+width: 40px;
+height: 50px;
+}
+
+#first{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+width: 50vw;
+}
+
+#first_content H1 {
+font-size: 60px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#first_content H1 span{
+
+color: #289e8a;
+}
+
+#checkpoint_text{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-top: 25px;
+align-items: center;
+display: flex;
+margin-top: 20px;
+font-size: 20px;
+}
+
+.ri-check-line {
+margin-right: 10px;
+background-color: #289e8a;
+color: #fff;
+height: 27px;
+font-size: 15px;
+width: 27px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+#button_explore{
+
+    margin-top: 50px;
+    margin-lef: 20px;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    background-color: #289e8a;
+    color: #fff;
+    border: 2px solid #289e8a;
+
+
+}
+
+#msgbox_img{
+
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #289e8a65;
+
+}
+#msg_box{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    display: flex;
+    margin-top: 70px;
+    color: rgba(0, 0, 0, 0.696);
+    font-size: 15px;
+    align-items: center;
+
+
+}
+
+#msg_box h4{
+
+    margin-left:15px;
+
+
+}
+
+#second{
+height: 100vh;
+width: 50vw;
+background-image: url(https://ik.imagekit.io/sheryians/photed_MVice1qZE.png);
+background-size: cover;
+background-position: center;
+}
+
+
+#second_text{
+
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    bottom: 5%;
+    right: 2%;
+    position: absolute;
+    margin-top: 70px;
+    color: #000;
+    font-size: 20px;
+    align-items: center;
+
+}
+
+
+.ri-heart-3-fill
+{
+
+    bottom: 5%;
+    right: 100%;
+    position: absolute;
+    margin-right: 10px;
+color: rgb(255, 0, 0);
+height: 27px;
+font-size: 30px;
+width: 27px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}

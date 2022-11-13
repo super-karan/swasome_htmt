@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  body,html{
+
+    width: 100%;
+    height: 100%;
+  }
+  #main {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    
+  
+ 
+    
+    background: url(https://images.unsplash.com/photo-1585822754398-04873d4e1f50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1967&q=80);
+  
+   background-repeat: no-repeat;
+  }
+  
+  #baller{
+
+
+    position: absolute;
+    top: 60%;
+
+    left: 5%;
+    width: 100px;
+    height: 300px;
+
+
+
+  }
+  #baller_img{
+
+    width: 100px;
+    height: 300px;
+
+
+
+  }
+
+  #ball{
+    position: absolute;
+
+    width: 30px;
+    height: 30px;
+  }
+
+  #ball_img{
+
+    width: 30px;
+    height: 30px;
+  }
+
+  #bat{
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    width: 100px;
+    height: 300px;
+
+
+
+  }
+  #bat_img{
+
+    width: 100px;
+    height: 300px;
+
+
+
+  }

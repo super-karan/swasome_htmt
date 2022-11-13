@@ -1,0 +1,182 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: Poppins,sans-serif;
+
+}
+
+html,body{
+
+    background-color: #3c006b;
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    background-image: linear-gradient(180deg,rgba(28, 3, 48, 0.548),rgba(72,8,92,0));
+    position: relative;
+    
+
+
+    width: 100%;
+
+   
+
+
+
+}
+#header{
+    display: flex;
+   padding-top: 70px;
+    width: 100%;
+    height: 50px;
+}
+#header #sec1{
+    display: flex;
+    
+    justify-content: flex-start ;
+    margin-left: 7%;
+    width: 30%;
+
+}
+
+#header #sec1 img{
+position: absolute;
+top: 5%;
+
+    width: 140px;
+    height: 50px;
+
+
+
+}
+#header #sec2{
+   
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 70%;
+    padding-right: 7%;
+    
+}
+
+#header #sec2 a{
+    padding-right: 30px;
+    padding-left: 30px;
+    -webkit-transition: .2s;
+    transition: .2s;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+
+   }
+   
+
+#sec_top{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-image: url(https://uploads-ssl.webflow.com/60be6e42ecea08f815b762c3/6153b832d6a443c082ea0751_clouds.svg);
+    background-position: 0 -70px,0 0;
+}
+
+
+#sec1top{
+    
+    position: relative;
+    width: 50%;
+    height: 100vh;
+
+
+}
+#sec1top #title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#sec1top h1{
+
+    width: 620px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding-bottom: 0;
+    font-family: Poppins,sans-serif;
+    color: #fff;
+    font-size: 96px;
+    line-height: 130%;
+    font-weight: 600;
+
+}
+
+#download{
+    position: absolute;
+    display: flex;
+top: 70%;
+left: 40%;
+transform: translate(-50%,-50%);
+    width: 400px;
+    height: 60px;
+
+
+
+
+}
+#apple_appstore{
+
+    width: 300px;
+    height: 65px;
+    margin-right: 40px;
+    padding-right: 0;
+    background-image: url(https://uploads-ssl.webflow.com/60be6e42ecea08f815b762c3/60dea10ffcfa38b33ff36baa_apple-app-store-badge.svg);
+    background-position: 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#playstore{
+
+    width: 320px;
+    height: 95px;
+    background-image: url(https://uploads-ssl.webflow.com/60be6e42ecea08f815b762c3/60dea2276223f66d84a60828_google-app-store-badge.svg);
+    background-position: 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#sec2top{
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://uploads-ssl.webflow.com/60be6e42ecea08f815b762c3/60d657a98d085922b245081b_homepage-bg-cloud.svg);
+    width: 50%;
+    height: 100vh;
+
+}
+#groceries_graphic{
+    margin-top: 15vh;
+    margin-left: 10vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-image: url(https://uploads-ssl.webflow.com/60be6e42ecea08f815b762c3/6153ba35e289eeae0c121630_groceries.svg);
+
+}
+
+#groceries_graphic:hover
+
+{
+    margin-top: 0;
+    margin-right: 20px;
+    margin-left: 0;
+
+
+    height: 150vh;
+
+
+}

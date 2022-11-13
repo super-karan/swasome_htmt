@@ -1,0 +1,65 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+html,body{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+#main{
+
+    font-family: gilroy;
+    margin-top: 7vh;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5vh
+   
+
+}
+
+#header{
+
+
+    width: 100%;
+}
+
+#header h1{
+
+    font-size: 5vw;
+}
+
+#header h3{
+
+    font-size: 3vw;
+}
+
+
+#secall{
+    display: flex;
+}
+
+
+
+
+#sec{
+    border: 2px solid black;
+
+
+    margin: 40px;
+    width: 33%;
+
+}
+
+#sec img{
+    width: 100%;
+    background-size: cover;
+}
